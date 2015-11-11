@@ -2,10 +2,21 @@
 //
 
 #include "stdafx.h"
+#include "Map.h"
+#include <iostream>
 
+using namespace std;
 
 int main()
 {
-    return 0;
+    
+	Map* map = new Map(10,	12);
+	map->draw();
+	
+
+	delete map;
+	string in;
+	cin >> in;
+	return 0;
 }
 
