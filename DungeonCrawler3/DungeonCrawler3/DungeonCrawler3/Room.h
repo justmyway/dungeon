@@ -16,6 +16,15 @@ class Room
 {
 public:
 	Room();
+
+	Room(const std::list<Corridor>& corridors, const std::list<Enemy>& enemnies, const std::list<Item>& items, bool visited)
+		: corridors(corridors),
+		  enemnies(enemnies),
+		  items(items),
+		  visited(visited)
+	{
+	}
+
 	~Room();
 	bool GetVisited();
 
