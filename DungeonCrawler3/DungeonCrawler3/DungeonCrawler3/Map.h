@@ -2,19 +2,6 @@
 #include "MapRoom.h"
 class MapRoom;
 
-
-enum MapIcon
-{
-	horizontalCorridor,
-	verticalCorridor,
-	startRoom,
-	lastEnemy,
-	normalRoom,
-	upstair,
-	downStair,
-	univisitedRoom
-};
-
 class Map
 {
 public:

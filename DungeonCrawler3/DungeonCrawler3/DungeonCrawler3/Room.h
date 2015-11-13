@@ -1,6 +1,7 @@
 #pragma once
 #include <list>
 #include <map>
+#include <string>
 #include "Corridor.h"
 #include "Enemy.h"
 #include "Item.h"
