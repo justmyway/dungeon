@@ -12,6 +12,7 @@ public:
 	Enemy();
 	~Enemy();
 
+
 private:
 	int health;
 	int level;

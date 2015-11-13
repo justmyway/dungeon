@@ -8,7 +8,7 @@ public:
 	Corridor();
 	~Corridor();
 private:
-	Room begin;
-	Room end;
+	Room *begin;
+	Room *end;
 	bool visited;
 }; 
