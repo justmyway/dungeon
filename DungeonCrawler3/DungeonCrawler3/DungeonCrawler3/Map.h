@@ -24,4 +24,6 @@ private:
 	MapRoom floorplan;
 	int xSize;
 	int ySize;
+
 };
+
