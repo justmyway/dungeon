@@ -151,6 +151,7 @@
     <ClInclude Include="Graph.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Map.h" />
+    <ClInclude Include="MapIcon.h" />
     <ClInclude Include="MapRoom.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Room.h" />
@@ -168,6 +169,7 @@
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MapIcon.cpp" />
     <ClCompile Include="MapRoom.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Room.cpp" />

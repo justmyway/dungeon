@@ -16,7 +16,8 @@ void Map::draw()
 	for (int y = 0; y < ySize; ++y)
 	{
 		for (int x = 0; x < xSize; ++x)
-		{
+		{	
+			if()
 			cout << ".";
 		}
 		cout << endl;
