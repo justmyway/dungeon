@@ -7,7 +7,9 @@
 
 using namespace std;
 
-int main()
+auto* mapRoomList = new list<MapRoom>;
+
+void initialize()
 {
 	auto* corridor = new Corridor();
 	auto* corridorList = new list<Corridor>;
@@ -22,13 +24,12 @@ int main()
 	itemList->push_back(*item);
 
 	auto* room1 = new Room(*corridorList, *enemyList, *itemList, false);
-	auto* mapRoom1 = new MapRoom(*room1, 0,0);
+	auto* mapRoom1 = new MapRoom(*room1, 0, 0);
 
-	auto* mapRoomList = new list<MapRoom>;
 	mapRoomList->push_back(*mapRoom1);
 	auto* map = new Map(*mapRoomList, 10, 12);
 	map->draw();
-	
+
 	delete map;
 	delete room1;
 	delete mapRoom1;
@@ -39,8 +40,14 @@ int main()
 	delete enemyList;
 	delete item;
 	delete itemList;
-	
+}
+
+int main()
+{
+	initialize();
+
 	string in;
 	cin >> in;
 	return 0;
 }
+
