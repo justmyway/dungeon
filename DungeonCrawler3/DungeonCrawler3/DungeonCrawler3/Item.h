@@ -1,7 +1,15 @@
 #pragma once
 #include <string>
 #include <map>
-enum ItemEffects;
+
+enum ItemEffects
+{
+	armour,
+	focus,
+	health,
+	strength,
+	xp
+};
 
 class Item
 {
@@ -13,11 +21,3 @@ private:
 	std::string name;
 };
 
-enum ItemEffects
-{
-	armour,
-	focus,
-	health,
-	strength,
-	xp
-};
